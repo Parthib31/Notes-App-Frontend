@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+  }
+  
+  header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+  .note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .container{
+    position: relative;
+    margin: 28px auto;
+    max-width: 570px;
+    padding: 20px;
+    border: 2px solid #f5ba13;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #b2afaa;
+  }
+
+  .user-input
+  {
+    margin-bottom: 10px;
+  }
+  .user-input label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .user-input input{
+    font-size: 20px;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: #eee;
+    outline: none;
+  }
+  .user-input textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    background-color: #eee;
+    outline: none;
+  }
+  .container button{
+    position: absolute;
+    right: 29px;
+    bottom: -27px;
+    background-color: #f5ba13;
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
+
+  .items{
+    display: inline-block;
+    width: 22%;
+    border: 1px solid #f5ba13;
+    border-radius: 5px;
+    padding: 14px;
+    margin: 0 29px 29px 0;
+  }
+  .items h2{
+
+  }
+  .deleteItem{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 13px 0 0 0;
+  }
+  #deleteBtn{
+    background-color: #f5ba13;
+    color: #eee;
+    font-weight: bold;
+    margin-left: 16px;
+    min-width: 30px;
+  }
+  #deleteBtn:hover{
+    cursor: pointer;
+  }
+
+  #editBtn{
+    padding: 1px;
+    background-color: #f5ba13;
+    color: #eee;
+    font-weight: bold;
+    min-width: 37px;
+  }
+  #editBtn:hover{
+    cursor: pointer;
+  }
+  
+  .search{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(233, 233, 233);
+    border-radius: 26px;
+    width: 40vw;
+    margin-bottom: 1.5em;
+
+  }
+
+  .search input{
+    border: none;
+	background-color: rgb(233, 233, 233);
+	width: 100%;
+  height: 31px;
+    font-size: 19px;
+    margin: 0 0 0 13px;
+  }
+
+  .search input:focus{
+    outline: none;
+  }
