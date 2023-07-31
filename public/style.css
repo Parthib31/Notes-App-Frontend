@@ -94,7 +94,7 @@
     position: absolute;
     right: 29px;
     bottom: -27px;
-    background-color: #f5ba13;
+    /* background-color: #e8d9b2; */
   }
   .btn:hover{
     cursor: pointer;
@@ -117,8 +117,8 @@
     margin: 13px 0 0 0;
   }
   #deleteBtn{
-    background-color: #f5ba13;
-    color: #eee;
+    /* background-color: #f1f1e7; */
+    color: #7c3636;
     font-weight: bold;
     margin-left: 16px;
     min-width: 30px;
@@ -129,8 +129,8 @@
 
   #editBtn{
     padding: 1px;
-    background-color: #f5ba13;
-    color: #eee;
+    /* background-color: #f5ba13; */
+    color: #7c3636;
     font-weight: bold;
     min-width: 37px;
   }

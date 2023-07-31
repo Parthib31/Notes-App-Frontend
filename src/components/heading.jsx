@@ -3,7 +3,7 @@ import { AppBar, Toolbar, styled } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 const Header = styled(AppBar)`
-  background-color: #f5ba13;
+  background-color: #FFEECC;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -13,7 +13,7 @@ const Header = styled(AppBar)`
 `;
 
 const Link = styled(NavLink)`
-  color: #fff;
+  color: #61677A;
   margin-right: 20px;
   text-decoration: none;
   margin-top: 7px;
@@ -23,6 +23,7 @@ const Link = styled(NavLink)`
 
 const H1 = styled("h1")`
   margin-right: 79px;
+  color: #61677A
 `;
 
 export const Heading = (props) => {

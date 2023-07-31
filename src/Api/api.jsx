@@ -1,8 +1,7 @@
 import axios from "axios";
-import dotenv from "dotenv";
+import { BackendURL } from "../config/config";
 
-dotenv.config();
-const URL = process.env.BackendURL;
+const URL = BackendURL;
 
 export const getNotes = async(id) => {
     id = id || ''
